@@ -1,0 +1,47 @@
+{
+    "tournaments": [
+    {
+    "name": "Tournament 1",
+    "startDate": "2024-03-01",
+    "endDate": "2024-03-10",
+    "status": "pending",
+    "type":"Tournament"
+
+    },
+    {
+    "name": "Tournament 2",
+    "startDate": "2024-04-01",
+    "endDate":"2024-05-10",
+   "status": "accepted",
+   "type":"Tournament"
+    },
+    {
+    "name": "Tournament 3",
+    "startDate": "2024-05-01",
+    "endDate": "2024-05-10",
+    "status": "rejected",
+    "type":"League"
+    },
+    {
+    "name": "Tournament 4",
+    "startDate": "2024-06-01",
+    "endDate": "2024-06-10",
+    "status": "pending",
+    "type":"League"
+    },
+    {
+    "name": "Tournament 5",
+    "startDate": "2024-07-01",
+    "endDate": "2024-07-10",
+    "status": "accepted",
+    "type":"Broadcast"
+    },
+    {
+        "name": "Tournament 6",
+        "startDate": "2024-07-01",
+        "endDate": "2024-07-10",
+        "status": "accepted",
+        "type":"Broadcast"
+        }
+    ]
+   }

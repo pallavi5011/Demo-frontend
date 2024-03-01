@@ -1,0 +1,17 @@
+.home-wrapper{
+   
+    .card-container {
+        margin: auto;
+        margin-top: 32px;
+        width: auto;
+        max-width: 986px;
+        overflow-x: auto;
+        display: grid;
+        grid-gap: 24px;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        margin-bottom: 48px;
+      }
+    }
+    
+    
+      

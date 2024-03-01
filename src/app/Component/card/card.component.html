@@ -1,0 +1,18 @@
+<div class="card">
+    <div class="card-top-section">
+        <div class="type"> {{type}}</div>
+        <div class="registration" [ngClass]="{
+            'blue': status === 'pending',
+            'green': status === 'accepted',
+            'red': status === 'rejected'}">
+            {{ status }}
+        </div>
+    </div>
+    <div class="card-bottom-section">
+        <div class="details">
+            <div class="details-date"> {{startDate}} - {{endDate}}</div>
+            <div class="details-name">{{name}}</div>
+        </div>
+        <div class="nav">></div>
+    </div>
+</div>

@@ -1,0 +1,60 @@
+.card {
+    width: 312px;
+    height: 260px;
+    border: 1px solid #4b98d7;
+    border-radius: 15px;
+    padding: 32px;
+    background-color: #fff;
+    background-image: url('/assets/images.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .card-top-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .type{
+            color: white;
+            font-weight: bold;
+        }
+        .registration{
+            font-weight: 700;
+        }
+    }
+    .card-bottom-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .details{
+            display: flex;
+            flex-direction: column;
+            .details-date{
+                color: white;
+            }
+            .details-name{
+                color: white;
+                font-weight: bold;
+            }
+        }
+        .nav{
+            color: black;
+            font-weight: 700;
+        }
+    }
+}
+
+.blue {
+    color: blue;
+  }
+  
+  .green {
+    color: green;
+  }
+  
+  .red {
+    color: red;
+  }
+  

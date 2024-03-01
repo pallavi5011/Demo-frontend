@@ -1,0 +1,23 @@
+
+.navigation {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding-top: 20px;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    color: #231d1d;
+    margin: 0 1rem;
+    cursor:pointer;
+  }
+  
+  .navigation a.active {
+    font-weight: bold;
+    border-bottom: 2px solid #f15c5c;
+    color: rgb(78, 64, 231);
+
+  }
+  
+

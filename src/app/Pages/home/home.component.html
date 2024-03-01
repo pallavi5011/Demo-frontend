@@ -1,0 +1,15 @@
+<div class="home-wrapper">
+    <app-header (tournamentData)="handleTournaments($event)"></app-header>
+    
+    <div class="card-container">
+        <ng-template ngFor let-item [ngForOf]="filteredTournaments" let-i="index" >
+            <app-card
+            [name]="filteredTournaments[i]?.name"
+            [startDate]="filteredTournaments[i]?.startDate"
+            [endDate]="filteredTournaments[i]?.endDate"
+            [status]="filteredTournaments[i]?.status"
+            [type]="filteredTournaments[i]?.type"
+            ></app-card>
+          </ng-template>
+    </div>
+    </div>

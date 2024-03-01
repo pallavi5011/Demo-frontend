@@ -1,0 +1,11 @@
+<section class="tournaments">
+  <h2>Tournaments</h2>
+  <div class="container">
+    <nav class="navigation">
+      <a (click)="setActiveLink('events')" [ngClass]="{'active': activeLink === 'events'}">All Events</a>
+      <a (click)="setActiveLink('Tournament')" [ngClass]="{'active': activeLink === 'Tournament'}">Tournaments</a>
+      <a (click)="setActiveLink('League')" [ngClass]="{'active': activeLink === 'League'}">Leagues</a>
+      <a (click)="setActiveLink('Broadcast')" [ngClass]="{'active': activeLink === 'Broadcast'}">Broadcast</a>
+    </nav>
+  </div>
+</section>
